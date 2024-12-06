@@ -7,6 +7,29 @@
 Body {
   background-color: sandybrown;
 }
+
 .maintitle {
-    color: pink;
+  background-color: rgb(255, 255, 255);
+  background: ;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: red;
+  justify-content: left;
+}
+
+.container {
+  font-family: monospace;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.aipizza {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
 }
