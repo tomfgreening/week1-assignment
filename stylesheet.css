@@ -4,21 +4,24 @@
   box-sizing: border-box;
 }
 
+
+
 Body {
   background-color: sandybrown;
 }
 
 .maintitle {
-  background-color: rgb(255, 255, 255);
-  background: ;
+  background-color: rgb(0, 0, 0);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: red;
-  justify-content: left;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
   font-family: monospace;
   font-weight: bold;
+  font-size: xx-large;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -27,21 +30,43 @@ Body {
 }
 
 .splash {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://files.oaiusercontent.com/file-7Y8xq5fDUUr18bypYBZqxB?se=2024-12-07T15%3A05%3A32Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Ddd3f05a0-e096-48ce-89f3-5169b251e96f.webp&sig=/MKEmz3wxrnrjwjeiOqTgshpNDSVRFPddHujAC2Ybc4%3D);
+  background-size: cover;
+  background-image: no-repeat, top right;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.herotext {
+  color: rgb(230, 48, 35);
+  font-family: sans-serif;
+  font-size: 500px;
+  text-align: bottom;
+
 }
 
 .menu {
-    display: flex;
-    justify-content: center
+  display: flex;
+  justify-content: center;
 }
 
 .about {
-    display: flex;
-    justify-content: right;
+  display: flex;
+  justify-content: right;
 }
 
 .contact {
-    display: flex;
-    justify-content: left;
+  display: flex;
+  justify-content: left;
+}
+
+p {
+  color: white;
+  font-family: monospace;
+  font-size: xx-large;
+  display: flex;
+  justify-content: left;
 }
