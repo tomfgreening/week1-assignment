@@ -5,52 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./stylesheet.css" />
     <title>Week 1 assignment - build a website</title>
+    <style>
+      /* I got the below scroll behaviour code from chatgpt by asking how to make the scroll function smoother */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
 
   <body>
     <header>
-      <h1 class="maintitle">Jakes Vegan Resturant</h1>
+      <h1 class="maintitle">Juicy Jakes - Vegan Resturant</h1>
       <main class="container">
-        <h2>Book now</h2>
-        <h2>Menu</h2>
-        <h2>About</h2>
-        <h2>Contact</h2>
+        <nav>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </main>
     </header>
 
     <!-- I need to add padding to these images  -->
     <section class="splash">
-      <overlay-text class="herotext"> Juicy Jakes</overlay-text>
+      <overlay-text class="herotext"> Passion for plant-based</overlay-text>
     </section>
 
-    <section class="menu">
+    <section id="menu" class="menu">
       <img src="./pizza1.jpg" />
+      <img src="./pizza2.jpg" />
+      <img src="./pizza3.jpg" />
       text to overlay onto image
     </section>
 
-    <section class="about">
-      <p> 
-        Welcome to Jake’s Vegan Restaurant, a place where music, creativity, and plant-based passion come together. Founded by Jake Kelly, a Brighton-based vegan DJ, our restaurant is more than just a dining experience – it’s a celebration of flavour, community, and sustainability.
-
-        Jake has been a fixture of Brighton’s vibrant music scene for years, spinning tracks that bring people together. His journey into veganism was inspired by his love for animals, the planet, and a desire to lead a kinder, more conscious life. Now, he’s combining his culinary passion with his musical roots to create a space where everyone can enjoy delicious plant-based food in a welcoming, upbeat atmosphere.
-        
-        Every dish on our menu is crafted with care, using fresh, locally-sourced ingredients that reflect Jake’s commitment to quality and sustainability. Whether you’re a long-time vegan, just curious, or somewhere in between, Jake’s Vegan Restaurant offers something for everyone – from hearty classics to bold, innovative dishes.
-        
-        Come for the food, stay for the vibe – Jake’s Vegan Restaurant is a place to connect, relax, and enjoy the best of Brighton’s plant-based scene.
-        
-        Join us and experience the unique blend of flavours and rhythms that Jake Kelly brings to the table. We can’t wait to welcome you!</p>
+    <section id="about" class="about">
+      
+      <p>
+        Welcome to Juicy Jake’s Vegan Restaurant, a place where music, creativity, and
+        plant-based passion come together. <br>
+        <br>
+        Founded by Jake Kelly, a
+        Brighton-based vegan DJ, our restaurant is more than just a dining
+        experience – it’s a celebration of flavour, community, and
+        sustainability. Jake has been a fixture of Brighton’s vibrant music
+        scene for years, spinning tracks that bring people together. His journey
+        into veganism was inspired by his love for animals, the planet, and a
+        desire to lead a kinder, more conscious life. <br>
+        <br>
+        Now, he’s combining his
+        culinary passion with his musical roots to create a space where everyone
+        can enjoy delicious plant-based food in a welcoming, upbeat atmosphere.
+        Every dish on our menu is crafted with care, using fresh,
+        locally-sourced ingredients that reflect Jake’s commitment to quality
+        and sustainability. <br>
+        <br>
+        Whether you’re a long-time vegan, just curious, or
+        somewhere in between, Jake’s Vegan Restaurant offers something for
+        everyone – from hearty classics to bold, innovative dishes. Come for the
+        food, stay for the vibe – Jake’s Vegan Restaurant is a place to connect,
+        relax, and enjoy the best of Brighton’s plant-based scene. Join us and
+        experience the unique blend of flavours and rhythms that Jake Kelly
+        brings to the table. <br>
+        <br>
+        We can’t wait to welcome you!
+      </p>
       <img src="./acidavian.jpg" />
     </section>
-    
 
-    <section class="contact">
+    <section id="contact" class="contact">
       <img src="./restaurant.jpg" />
-      and this text to the right
+
+      <p class="address">
+        19 Fake Street <br />
+        <br />
+        Brighton <br />
+        <br />
+        BN9 5R1 <br />
+        <br />
+        info@juicyjakes.co.uk <br />
+        <br />
+        01273 677 909
+      </p>
     </section>
 
-    <footer>
-      This is the footer. Currently just leaving some body text here before I
-      finalise what I want in here
+    <footer id="footer" class="footer">
+      
+        <p>Follow our socials:</p>
+        
+          <a href="https://facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"/></a>
+          <a href="https://twitter.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png"></a>
+          <a href="https://instagram.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"/></a>
     </footer>
+    
   </body>
 </html>
