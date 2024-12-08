@@ -36,9 +36,12 @@ Body {
   height: 100vh;
   display: flex;
   justify-content: center;
+  padding-bottom: 100px;
 }
 
 .herotext {
+  position: absolute;
+  bottom: 20px;
   color: dodgerblue;
   font-family: sans-serif;
   font-size: 400px;
@@ -48,17 +51,21 @@ Body {
 .menu {
   display: flex;
   justify-content: center;
+  position: relative;
+  padding-top: 100px;
 }
 
 .menuitems {
-  display: flex;
-  justify-content: space-between;
-  color: blue ;
+  position: absolute;
+  bottom: -10px;
+  color: black;
+  text-decoration: underline;
 }
 
 .about {
   display: flex;
   justify-content: right;
+  padding-top: 100px;
 }
 
 .jakephoto {
@@ -77,6 +84,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding-top: 100px;
 }
 
 .extrest {
@@ -87,7 +95,7 @@ h2 {
 }
 
 .address {
-  color: rgb(255, 0, 0);
+  color: red;
   text-align: right;
   padding-right: 50px;
   font-size: 90px;
