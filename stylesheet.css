@@ -8,15 +8,13 @@ Body {
   background-color: sandybrown;
 }
 
-
 .maintitle {
-  background-color: slategray;
+  background-color: red;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: white;
   display: flex;
   justify-content: center;
 }
-
 
 .container {
   font-family: monospace;
@@ -32,7 +30,7 @@ Body {
 .splash {
   display: flex;
   justify-content: center;
-  background-image: url(https://files.oaiusercontent.com/file-7Y8xq5fDUUr18bypYBZqxB?se=2024-12-07T15%3A05%3A32Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Ddd3f05a0-e096-48ce-89f3-5169b251e96f.webp&sig=/MKEmz3wxrnrjwjeiOqTgshpNDSVRFPddHujAC2Ybc4%3D);
+  background-image: url(https://static.wixstatic.com/media/58983b_e206442a452c419397865ca7bf9bc69b~mv2.png/v1/fill/w_2745,h_1266,al_c,q_95,enc_avif,quality_auto/IMG_1998_HEIC.png);
   background-size: cover;
   background-image: no-repeat, top right;
   height: 100vh;
@@ -41,11 +39,10 @@ Body {
 }
 
 .herotext {
-  color: rgb(230, 48, 35);
+  color: dodgerblue;
   font-family: sans-serif;
   font-size: 400px;
   text-align: bottom;
-
 }
 
 .menu {
@@ -53,9 +50,20 @@ Body {
   justify-content: center;
 }
 
+.menuitems {
+  display: flex;
+  justify-content: space-between;
+  color: blue ;
+}
+
 .about {
   display: flex;
   justify-content: right;
+}
+
+.jakephoto {
+  height: 800px;
+  width: 3500px;
 }
 
 h2 {
@@ -67,21 +75,30 @@ h2 {
 
 .contact {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.extrest {
+  display: flex;
   justify-content: left;
+  height: 800px;
+  width: 1000px;
 }
 
 .address {
   color: rgb(255, 0, 0);
-  display: flex;
-  justify-content: right;
+  text-align: right;
+  padding-right: 50px;
+  font-size: 90px;
 }
 
 footer {
-    background-color: red;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
+  background-color: red;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
 p {
   color: white;
@@ -89,9 +106,10 @@ p {
   font-size: xx-large;
   display: flex;
   justify-content: left;
+  padding-left: 50px;
 }
 
 img {
   padding: 25px;
-  height: 5;
+  height: ;
 }
